@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75EB90DC-CB6A-4DB8-9403-60C7BD64F1A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>毕设_测量平差程序设计</RootNamespace>
+    <AssemblyName>毕设-测量平差程序设计</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="hwh类库">
+      <HintPath>..\..\..\..\C#程序练习\hwh类库\hwh类库\bin\Debug\hwh类库.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="辅助\Matrix.cs" />
+    <Compile Include="辅助\angleTransform.cs" />
+    <Compile Include="客户端\frm_setOfWire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户端\frm_setOfWire.Designer.cs">
+      <DependentUpon>frm_setOfWire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户端\frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户端\frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户端\frm_setOfLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户端\frm_setOfLevel.Designer.cs">
+      <DependentUpon>frm_setOfLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户端\frm_setOfPhotoGrammetry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户端\frm_setOfPhotoGrammetry.Designer.cs">
+      <DependentUpon>frm_setOfPhotoGrammetry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户端\frm_user_LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户端\frm_user_LogIn.Designer.cs">
+      <DependentUpon>frm_user_LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="水准平差\level.cs" />
+    <Compile Include="交会定向\orientation.cs" />
+    <Compile Include="交会定向\photoGrammetry.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="交会定向\rendezvous.cs" />
+    <Compile Include="导线平差\wire.cs" />
+    <EmbeddedResource Include="客户端\frm_setOfWire.resx">
+      <DependentUpon>frm_setOfWire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="客户端\frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="客户端\frm_setOfLevel.resx">
+      <DependentUpon>frm_setOfLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="客户端\frm_setOfPhotoGrammetry.resx">
+      <DependentUpon>frm_setOfPhotoGrammetry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="客户端\frm_user_LogIn.resx">
+      <DependentUpon>frm_user_LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

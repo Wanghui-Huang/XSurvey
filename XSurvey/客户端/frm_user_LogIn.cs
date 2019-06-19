@@ -38,6 +38,7 @@ namespace XSurvey
            
             string userName = tb_userName.Text,
                    passWord = tb_password.Text;
+            lb_tip.Text = "此版本已取消数据库连接，任意账户登录";
             if (userName == "" || passWord == "")//提示未输入用户名/密码
             {
                 lb_tip.Text = "请输入完整用户名和密码！";
@@ -46,7 +47,11 @@ namespace XSurvey
             { //开始进行数据库连接
                 try
                 {
-
+                    /*ATTENTION
+                     *   此版本暂时【取消】数据库连接--因数据库为本地数据库,TA人使用无法连接数据库
+                     *   待更新数据库--放置远程服务器
+                     */
+                     /*
                     string      constr = @"Data Source=(local)\HWHSQL;Initial Catalog=XSurvey;Integrated Security=True";   //设置连接对象所需通讯录路径（参数）
                     SqlConnection con = new SqlConnection(constr);                                   //初始化连接对象
                     StringBuilder sql = new StringBuilder();                                         //初始化stringBuilder对象（可以格式化适合sql语句）                                        
@@ -55,7 +60,9 @@ namespace XSurvey
                     con.Open();                                                                      //初始工作完成，打开连接对象方法，开始执行sql语句
                     int result = (int)cmd.ExecuteScalar();
                     con.Close();
-                    if (result == 1)//成功登陆
+                    */
+                    
+                    if (true)//成功登陆
                     {
                         this.DialogResult = DialogResult.OK;            //返回一个登陆成功状态
                         succssfulLanding(userName);                     //处理事件实例（参数指定），事件处理方法在主窗体中，这样成功将用户名参数传递到主窗体处理方法中
@@ -103,6 +110,16 @@ namespace XSurvey
         private void btn_close_fm_logIn_Click(object sender, EventArgs e)
         {
             this.Close();       //关闭登陆窗体
+        }
+
+        private void pic_user_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frm_user_LogIn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

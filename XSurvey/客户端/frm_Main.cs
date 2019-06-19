@@ -39,6 +39,7 @@ namespace XSurvey
         public frm_main()
         {
             InitializeComponent();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             title = rb_message.Text;
             //一运行先立即隐藏主窗体,this.hide()没有用！
             this.WindowState = FormWindowState.Minimized;

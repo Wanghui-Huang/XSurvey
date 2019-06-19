@@ -112,9 +112,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(38, 463);
+            this.label1.Location = new System.Drawing.Point(41, 539);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 17);
+            this.label1.Size = new System.Drawing.Size(145, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "欢迎使用X-测量系统";
             // 
@@ -123,10 +123,11 @@
             this.lb_tip.BackColor = System.Drawing.Color.Transparent;
             this.lb_tip.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lb_tip.ForeColor = System.Drawing.Color.Red;
-            this.lb_tip.Location = new System.Drawing.Point(78, 197);
+            this.lb_tip.Location = new System.Drawing.Point(41, 197);
             this.lb_tip.Name = "lb_tip";
-            this.lb_tip.Size = new System.Drawing.Size(178, 30);
+            this.lb_tip.Size = new System.Drawing.Size(220, 30);
             this.lb_tip.TabIndex = 8;
+            this.lb_tip.Text = "数据库连接取消，任意账户登录";
             // 
             // btn_close_fm_logIn
             // 
@@ -138,7 +139,7 @@
             this.btn_close_fm_logIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close_fm_logIn.ImageKey = "关闭.png";
             this.btn_close_fm_logIn.ImageList = this.imageList1;
-            this.btn_close_fm_logIn.Location = new System.Drawing.Point(259, -1);
+            this.btn_close_fm_logIn.Location = new System.Drawing.Point(280, -2);
             this.btn_close_fm_logIn.Name = "btn_close_fm_logIn";
             this.btn_close_fm_logIn.Size = new System.Drawing.Size(33, 23);
             this.btn_close_fm_logIn.TabIndex = 7;
@@ -150,7 +151,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(2, 457);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 539);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 23);
             this.pictureBox3.TabIndex = 5;
@@ -184,20 +185,23 @@
             // 
             this.pic_user.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_user.BackgroundImage")));
             this.pic_user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_user.Location = new System.Drawing.Point(103, 68);
+            this.pic_user.Image = global::毕设_测量平差程序设计.Properties.Resources.头像;
+            this.pic_user.Location = new System.Drawing.Point(111, 62);
             this.pic_user.Name = "pic_user";
             this.pic_user.Size = new System.Drawing.Size(85, 65);
+            this.pic_user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_user.TabIndex = 9;
             this.pic_user.TabStop = false;
+            this.pic_user.Click += new System.EventHandler(this.pic_user_Click);
             // 
             // frm_user_LogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(290, 489);
+            this.ClientSize = new System.Drawing.Size(311, 574);
             this.Controls.Add(this.pic_user);
             this.Controls.Add(this.lb_tip);
             this.Controls.Add(this.btn_close_fm_logIn);
@@ -216,6 +220,7 @@
             this.Name = "frm_user_LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登陆";
+            this.Load += new System.EventHandler(this.frm_user_LogIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

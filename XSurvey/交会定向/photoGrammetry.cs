@@ -79,8 +79,5 @@ namespace XSurvey
             mtx += "\n改正后定向元素矩阵[Xs Ys Zs λ Ω φ K]T 为：\n" + Matrix.Print(X, 8);
         }
 
-        //
-
-        //public void writeToDateGridView(DataGridView dgv)
     }
 }

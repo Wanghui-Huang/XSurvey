@@ -31,3 +31,45 @@ C:\Users\Administrator\Desktop\毕业设计\毕设源码\毕设-测量平差程�
 C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe.config
 C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.exe
 C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.pdb
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.pdb
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\hwh类库.dll
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\hwh类库.pdb
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_limtSetOfWire.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_main.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfLevel.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfRendezvous.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_user_LogIn.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设_测量平差程序设计.Properties.Resources.resources
+C:\Users\Administrator\Desktop\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe.config
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.exe
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.pdb
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.pdb
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\bin\Debug\hwh类库.pdb
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_limtSetOfWire.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_main.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfLevel.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfRendezvous.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.frm_user_LogIn.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\毕设_测量平差程序设计.Properties.Resources.resources
+C:\Users\Administrator\Desktop\C#程序练习\毕业设计\毕设源码\XSurvey\XSurvey\obj\Debug\XSurvey.csproj.GenerateResource.Cache
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe.config
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.exe
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\bin\Debug\毕设-测量平差程序设计.pdb
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\bin\Debug\hwh类库.pdb
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.csprojAssemblyReference.cache
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.frm_limtSetOfWire.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.frm_main.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfLevel.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.frm_setOfRendezvous.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.frm_user_LogIn.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\毕设_测量平差程序设计.Properties.Resources.resources
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.csproj.GenerateResource.cache
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.csproj.CoreCompileInputs.cache
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\XSurvey.csproj.CopyComplete
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.exe
+D:\黄旺辉的杂货部\本科\毕设\毕设全部\XSurvey\XSurvey\obj\Debug\毕设-测量平差程序设计.pdb
